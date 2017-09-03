@@ -63,7 +63,7 @@ public class ScanManager {
                 mIzkcService = null;
                 bindSuccessFlag = false;
                 //   Toast.makeText(MainActivity.this, "绑定失败", Toast.LENGTH_SHORT).show();
-                SendMessage(MsgValue.TELL_ME_SOME_INFOR, 0, 0, "绑定服务失败");
+                SendMessage(MsgValue.TELL_ME_SOME_INFOR, 0, 0, "绑定红外扫描服务失败");
             }
 
             @Override
