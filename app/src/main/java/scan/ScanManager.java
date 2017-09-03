@@ -22,6 +22,7 @@ import msg.MsgValue;
  */
 
 public class ScanManager {
+
     public static int module_flag = 0;
     public static int DEVICE_MODEL = 0;
     public boolean bindSuccessFlag = false;
